@@ -10,8 +10,8 @@ public class Java8 {
 
 
         List<Map> lista = new ArrayList<>();
-        List<String> lista2 = new ArrayList<>(Arrays.asList("1", "2", "3", "4"));
-        List<String> lista3 = new ArrayList<>();
+        /*List<String> lista2 = new ArrayList<>(Arrays.asList("1", "2", "3", "4"));
+        List<String> lista3 = new ArrayList<>();*/
         Map<String, Object> mapa = new HashMap<>();
         Map<String, Object> mapa2 = new HashMap<>();
         Map<String, Object> mapa3 = new HashMap<>();
