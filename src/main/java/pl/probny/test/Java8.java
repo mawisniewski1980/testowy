@@ -61,9 +61,18 @@ public class Java8 {
             System.out.println(((Map) map).get("1").toString());
         });
         System.out.println("------------------------------------------------------------------------");
-*/
+
         Object xx = lista.stream().map(map-> map.keySet().stream()).collect(Collectors.toList());
         System.out.println(xx.toString());
+*/
+
+//https://stackoverflow.com/questions/51522665/java8-convert-list-of-map-to-list-of-string?fbclid=IwAR3vfOCpgsvsK03XHz25JPtXFPH6LgesoGGC8VDbdwNQvbtLJQRrRkRgmFs
+        // Dzięki!!!! GRZEGORZ GÓRKIEWICZ !!!!!!!!!!!!!!!!!!!
+        List<Object> toReturn =
+                lista.stream()
+                        .filter(map -> map.containsKey("1"))
+                        .map(map -> map.get("1")).collect(Collectors.toList());
+        System.out.println(toReturn);
 
         ;
     /*    String result = mapa.entrySet().stream()
