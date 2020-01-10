@@ -67,7 +67,6 @@ public class Java8 {
 */
 
 //https://stackoverflow.com/questions/51522665/java8-convert-list-of-map-to-list-of-string?fbclid=IwAR3vfOCpgsvsK03XHz25JPtXFPH6LgesoGGC8VDbdwNQvbtLJQRrRkRgmFs
-        // Dzięki!!!! GRZEGORZ GÓRKIEWICZ !!!!!!!!!!!!!!!!!!!
         List<Object> toReturn =
                 lista.stream()
                         .filter(map -> map.containsKey("1"))
