@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/probny/test/Java8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/probny/test/Java8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/testowy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,9 +39,13 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1SIaiph1BmHCVAIMlnNFu37egMP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -247,9 +252,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1578690432338">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="346" y="71" key="SettingsEditor" timestamp="1586291155171">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578690432338" />
+    <state x="346" y="71" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586291155171" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1586291190635">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586291190635" />
   </component>
 </project>
