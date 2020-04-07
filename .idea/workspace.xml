@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/probny/groovy/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/probny/groovy/helloworld.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/probny/groovy/savetofile.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/testowy.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +50,13 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -61,20 +64,7 @@
       <recent name="pl.probny.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ClassPart1One">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.App" />
-      <module name="testowy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.probny.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Groovy.savetofile">
     <configuration name="Java8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.probny.test.Java8" />
       <module name="testowy" />
@@ -88,20 +78,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.shouldAnswerWithTrue" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="helloworld" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="testowy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.probny.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.probny.test" />
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.AppTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy/helloworld.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="savetofile" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="testowy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy/savetofile.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy" />
+      <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.Java8" />
-      <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
       <item itemvalue="TestNG.ClassPart1One" />
       <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
+      <item itemvalue="Groovy.savetofile" />
+      <item itemvalue="Groovy.helloworld" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.savetofile" />
+        <item itemvalue="Groovy.helloworld" />
         <item itemvalue="TestNG.ClassPart1One" />
         <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
         <item itemvalue="Application.Java8" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +202,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578692076920" />
+    <state x="822" y="343" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1586292369746">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="822" y="343" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586292369746" />
     <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578692072985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,22 +218,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1578691533978" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1578693994948">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="785" y="170" key="FileChooserDialogImpl" timestamp="1586292367316">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="785" y="170" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586292367316" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586293358517">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1578693994948">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586293358517">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1578693994948">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586293358517">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1578693994948">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586293358517">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1578693994948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,11 +258,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578693994948" />
-    <state x="346" y="71" key="SettingsEditor" timestamp="1586291155171">
+    <state x="346" y="71" width="1318" height="715" key="SettingsEditor" timestamp="1586292384868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578690432338" />
-    <state x="346" y="71" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586291155171" />
+    <state x="346" y="71" width="1318" height="715" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586292384868" />
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1586291190635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
