@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,18 @@
       <recent name="pl.probny.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ClassPart1One.method1Part1One">
+  <component name="RunManager" selected="Groovy.helloworld (1)">
+    <configuration name="helloworld (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="testowy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy/helloworld.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="helloworld" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="testowy" />
       <setting name="path" value="file://$PROJECT_DIR$/src/main/java/pl/probny/groovy/helloworld.groovy" />
@@ -128,30 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/marcin/workspace/testowy/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testowy" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Groovy.savetofile" />
+      <item itemvalue="Groovy.helloworld (1)" />
       <item itemvalue="Groovy.helloworld" />
+      <item itemvalue="Groovy.savetofile" />
       <item itemvalue="TestNG.ClassPart1One" />
-      <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
       <item itemvalue="TestNG.ClassPart1One.method1Part1One" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.helloworld (1)" />
         <item itemvalue="TestNG.ClassPart1One.method1Part1One" />
         <item itemvalue="Groovy.savetofile" />
         <item itemvalue="Groovy.helloworld" />
         <item itemvalue="TestNG.ClassPart1One" />
-        <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -190,21 +192,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="170" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586292367316" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586293358517">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1589229450695">
+      <screen x="0" y="0" width="1920" height="1019" />
     </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1589229450695" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586293358517">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1589229450695">
+      <screen x="0" y="0" width="1920" height="1019" />
     </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1589229450695" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586293358517">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1589229450695">
+      <screen x="0" y="0" width="1920" height="1019" />
     </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1589229450695" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586293358517">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1589229450695">
+      <screen x="0" y="0" width="1920" height="1019" />
     </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1589229450695" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586293358517" />
     <state x="346" y="69" width="1318" height="715" key="SettingsEditor" timestamp="1589229129297">
       <screen x="0" y="0" width="1920" height="1019" />
