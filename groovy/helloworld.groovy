@@ -1,4 +1,4 @@
-package pl.probny.groovy
+package groovy
 
 def text = "world"
 def dir = new File(getClass().protectionDomain.codeSource.location.path).getParent().toString()
