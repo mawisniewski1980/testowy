@@ -11,6 +11,14 @@
 > <https://docs.docker.com/engine/reference/commandline/>
 
  * cat /etc/lsb-release //linux distribution
+ * ps aux //linux processes
+ * free -m
+ * vmstat -s
+ * cat /proc/meminfo
+ * top
+
+
+ >
  * docker images //images
  * docker run -ti centos echo "Hello centOS" //img centos
  * docker ps  // display all running containers
@@ -23,11 +31,13 @@
  * docker start id_contener //run container
  * docker exec -ti id_contener bash     // create new process, own, individually
  * docker attach id_contener			//attach to running container
+  * docker start id_contener     // start contener
  * docker start -ia id_contener     // start contener and attach interactive
  * docker run -ti --restart unless-stopped --name always_run ubuntu bash   //container is in continuous running
  * docker rm id_contener   // remove container  - ONLY NOT RUNNED
  * docker stop id_contener   // stop one docker container
  * docker stop $(docker ps -aq)   // stop all dockers containers
+ * docker kill     // kill - stop docker -> Exited (137) immediately stop 
  * docker commit id_contener name
  * docker search ubuntu //search on docker hub image ubuntu
  * docker search http
@@ -37,6 +47,19 @@
  * docker login // login into docker
  * docker tag name_image new_image  / create new image with different name
  * docker run --rm centos echo "One minute" //run container and delete this contener
+ * docker inspect //inspect container
+ * docker logs id_continer
+ >
+
+ * docker run -ti --name kontener1 ubuntu /bin/bash    //download and run docker image ubuntu as a container in interactive mode  (connected), after exit command - container will stops
+
+ > create container runned in background, attach and disconect without stopping the container
+ ```
+ docker run -d -ti --name kontener2 ubuntu /bin/bash //run docker image ubuntu as a container in interctive and running in the background
+ docker attach kontener2
+ CTRL+P > CTRL+Q
+ docker exec -ti kontener2 /bin/bash //conect to  container as a new process
+```
 
  > create image from container
 ```
