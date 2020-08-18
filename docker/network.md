@@ -36,3 +36,16 @@
  > CTRL+P > CTRL+Q
  > ssh user@172.17.0.2
  >  
+
+ ## inspect docker container
+  > docker run -ti -d --name WebServer2 ubuntu bash
+  > docker run -ti -d --name WebServer3 ubuntu bash
+  > docker inspect WebServer2
+  > docker inspect WebServer3
+
+## checking communication between container
+  > run on two different terminal command ping
+    > docker attach WebServer2
+    > docker attach WebServer3
+    > ip a
+    > ping 172.17.0.2 <> ping 172.17.0.3
