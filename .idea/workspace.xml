@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../SERWER/apache-maven" />
+        <option name="mavenHome" value="D:\marcin\SERWER\apache-maven" />
       </MavenGeneralSettings>
     </option>
   </component>
