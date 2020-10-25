@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="" />
+    <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/selenide/fake.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +58,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../robot-framework" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -63,9 +69,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ClassPart1One">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.App" />
+  <component name="RunManager" selected="Application.Time">
+    <configuration name="Java8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.probny.test.Java8" />
       <module name="testowy" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.Java8" />
+    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.probny.time.Time" />
       <module name="testowy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.probny.test.*" />
+          <option name="PATTERN" value="pl.probny.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.Java8" />
       <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
       <item itemvalue="TestNG.ClassPart1One" />
       <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
+      <item itemvalue="Application.Time" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Time" />
         <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
         <item itemvalue="TestNG.ClassPart1One" />
         <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.Java8" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -194,10 +200,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1602323696654" />
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602323600541">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603656960984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1602323600541" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1603656960984" />
     <state x="452" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602324535225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,9 +212,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1602324536469" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1602324339827">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1603662034403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602324339827" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1603662034403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1603662034403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1603662034403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1603662134625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603662134625" />
   </component>
 </project>
