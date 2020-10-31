@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d314461-014b-4f41-935e-b3ebb8dd78c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/probny/composite/TestClassOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/selenide/fake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/probny/test/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/part1/ClassPart1One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/probny/test/part1/ClassPart1One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/probny/test/part1/ClassPart1Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/probny/test/part1/ClassPart1Two.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +71,12 @@
       <recent name="pl.probny.test" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.probny.composite" />
+      <recent name="pl.probny.test.base" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Time">
-    <configuration name="Java8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.Java8" />
-      <module name="testowy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.probny.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ClassPart1Two.method1Part1Two">
     <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.probny.time.Time" />
       <module name="testowy" />
@@ -92,24 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.shouldAnswerWithTrue" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testowy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.probny.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.probny.test" />
-      <option name="MAIN_CLASS_NAME" value="pl.probny.test.AppTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +118,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClassPart1One.method1Part1One" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testowy" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.probny.test.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="pl.probny.test.part1" />
+      <option name="MAIN_CLASS_NAME" value="pl.probny.test.part1.ClassPart1One" />
+      <option name="METHOD_NAME" value="method1Part1One" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassPart1Two.method1Part1Two" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testowy" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.probny.test.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="pl.probny.test.part1" />
+      <option name="MAIN_CLASS_NAME" value="pl.probny.test.part1.ClassPart1Two" />
+      <option name="METHOD_NAME" value="method1Part1Two" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/marcin/workspace/testowy/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testowy" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -153,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Java8" />
-      <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
-      <item itemvalue="TestNG.ClassPart1One" />
-      <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
       <item itemvalue="Application.Time" />
+      <item itemvalue="TestNG.ClassPart1One" />
+      <item itemvalue="TestNG.ClassPart1One.method1Part1One" />
+      <item itemvalue="TestNG.ClassPart1Two.method1Part1Two" />
+      <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ClassPart1Two.method1Part1Two" />
+        <item itemvalue="TestNG.ClassPart1One.method1Part1One" />
         <item itemvalue="Application.Time" />
         <item itemvalue="TestNG.D:/marcin/workspace/testowy/testng.xml" />
         <item itemvalue="TestNG.ClassPart1One" />
-        <item itemvalue="TestNG.AppTest.shouldAnswerWithTrue" />
-        <item itemvalue="Application.Java8" />
       </list>
     </recent_temporary>
   </component>
@@ -200,37 +232,60 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1602323696654" />
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603656960984">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604160885809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1603656960984" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604160885809" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1604160520912">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604160520912" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604159823253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1604159823253" />
     <state x="452" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602324535225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="452" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1602324535225" />
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604160408269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1604160408269" />
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602324536469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1602324536469" />
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1603662034403">
+    <state width="1493" height="305" key="GridCell.Tab.0.bottom" timestamp="1604160928278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
-    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1603662034403">
+    <state width="1493" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604160928278" />
+    <state width="1493" height="305" key="GridCell.Tab.0.center" timestamp="1604160928277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
-    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1603662034403">
+    <state width="1493" height="305" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604160928277" />
+    <state width="1493" height="305" key="GridCell.Tab.0.left" timestamp="1604160928277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
-    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1603662034403">
+    <state width="1493" height="305" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604160928277" />
+    <state width="1493" height="305" key="GridCell.Tab.0.right" timestamp="1604160928277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603662034403" />
+    <state width="1493" height="305" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604160928277" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1603662134625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603662134625" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/probny/test/base/SuperBaseTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

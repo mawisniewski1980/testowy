@@ -1,14 +1,15 @@
 package pl.probny.test.part1;
 
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import pl.probny.test.base.BaseTest;
 
-public class ClassPart1One extends BaseTest{
+public class ClassPart1One extends BaseTest {
 
-    @Test
+    @Test()
     void method1Part1One() {
         System.out.println("method1_Part1_One");
+        System.out.println(name);
     }
 
     @Test

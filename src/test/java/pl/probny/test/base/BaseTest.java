@@ -2,46 +2,39 @@ package pl.probny.test.base;
 
 import org.testng.annotations.*;
 
-public class BaseTest {
+public class BaseTest extends SuperBaseTest {
 
-    @BeforeSuite
-    protected void beforeSuite() {
-        System.out.println("BeforeSuite...");
-    }
+    protected String name;
 
-    @BeforeTest
+    @BeforeTest(alwaysRun = true)
     protected void beforeTest() {
         System.out.println("BeforeTest...");
     }
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     protected void beforeClass() {
         System.out.println("BeforeClass...");
+        name = testClassOne.getName();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     protected void beforeMethod() {
         System.out.println("BeforeMethod...");
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     protected void afterMethd() {
         System.out.println("AfterMethod...");
     }
 
-    @AfterClass
+    @AfterClass(alwaysRun = true)
     protected void afterClass() {
         System.out.println("AfterClass");
     }
 
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     protected void afterTest() {
         System.out.println("AfterTest");
-    }
-
-    @AfterSuite
-    protected void afterSuite() {
-        System.out.println("AfterSuite...");
     }
 
 
